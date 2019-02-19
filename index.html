@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="res/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="res/main.css">
+</head>
+<body>
+	<h1 class="text-center">Calculator</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4 calcDeco">
+			<div class="result">
+				<form name="calculator">
+					<input name="result" class="form-control" id="exampleInputresult1">
+				</form>
+			</div>
+			<table>
+			    <thead>
+			        <tr>
+			            <!-- <th colspan="2">The table header</th> -->
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr class="my-block">
+			            <td><button type="button" class="notNumberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '('"><strong>(</strong></button></td>
+			            <td><button type="button" class="notNumberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += ')'"><strong>)</strong></button></td>
+			          	<td><button type="button" class="notNumberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '%'"><strong>%</strong></button></td>
+			          	<td><button type="button" class="clrScreenBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value = ''"><strong>AC</strong></button></td>
+
+			        </tr>
+			      	<tr>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '7'"><strong>7</strong></button></td>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '8'"><strong>8</strong></button></td>
+			          	<td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '9'"><strong>9</strong></button></td>
+			          	<td><button type="button" class="operantBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '/'"><strong>/</strong></button></td>
+
+			        </tr>
+			      <tr>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center"><strong>4</strong></button></td>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '4'"><strong>5</strong></button></td>
+			          	<td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '6'"><strong>6</strong></button></td>
+			          	<td><button type="button" class="operantBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '*'"><strong>*</strong></button></td>
+
+			        </tr>
+			      <tr>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '1'"><strong>1</strong></button></td>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '2'"><strong>2</strong></button></td>
+			          	<td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '3'"><strong>3</strong></button></td>
+			          	<td><button type="button" class="operantBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '-'"><strong>-</strong></button></td>
+
+			        </tr>
+			      <tr>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center" OnClick="calculator.result.value += '0'"><strong>0</strong></button></td>
+			            <td><button type="button" class="numberBtn btn btn-default btn-lg btn-block text-center"><strong>.</strong></button></td>
+			          	<td><button type="button" class="equalsBtn btn btn-primary btn-default btn-lg btn-block text-center" OnClick="calculator.result.value = eval(calculator.result.value)"><strong>=</strong></button></td>
+			          	<td><button type="button" class="operantBtn btn btn-default btn-lg btn-block text-center"><strong>+</strong></button></td>
+
+			        </tr>
+			    </tbody>
+			</table>
+			<!-- <div class="madeBy">
+	    		<p class="text-center"> made by <h1>Fimbi Foi </h1>
+	    			<p class="text-center">
+	    				<a href="#">@foi_fimbi</a>
+	    			</p>
+	    		</p>
+	    	</div> -->
+		</div>
+		<div class="col-md-4"></div>
+
+	</div>
+</div>
+
+
+</div>
+</body>
+</html>

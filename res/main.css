@@ -1,0 +1,84 @@
+.calcDeco {
+	background-color: #ffffff;
+	margin-top: 15%;
+	/*padding-top: 10%;*/
+	padding-bottom: 5%;
+	border-radius:10px;
+
+}
+
+.numbersEquals {
+	border-color: 1px red;
+}
+
+.result {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	height: 100%;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: rgba(189, 89, 215, 1);
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(189, 89, 215, 0.2), 0 6px 20px 0 rgba(189, 89, 215, 0.19);
+    }
+
+
+.my-block {
+	padding-left: 15px;
+}
+td {
+	width: 10%;
+	margin-bottom: 5px;
+}
+h1 {
+	color:#ffffff;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1507431489734-ef0dbfbf88e1?ixlib=rb-0.3.5&q=99&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&s=3eb13a093159d39986599db595081b8e);
+}
+
+.notNumberBtn {
+	/*background-color: #d6d6d5;*/
+	/*background-color: rgba(189, 89, 215, 0.2), 0 6px 20px 0 rgba(189, 89, 215, 0.19)*/
+	color: rgba(189, 89, 215, 1);
+	border-color: transparent;
+    box-shadow: 1px 1px 1px 1px rgba(189, 89, 215, 0.2), 1px 1px 1px 1px rgba(189, 89, 215, 0.19);
+
+}
+
+.clrScreenBtn {
+	color: #ffffff;
+	border-color: transparent;
+	background-color: #ea4335;
+}
+
+.operantBtn {
+	color: #ffffff;
+	border-color: transparent;
+	background-color: #34a853;
+
+}
+
+.numberBtn {
+	color: rgba(189, 89, 215, 1);
+	border-color: transparent
+}
+
+.equalsBtn {
+	color: #ffffff;
+	background-color: #3079ed;
+}
